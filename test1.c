@@ -1,4 +1,8 @@
 #include <stdio.h>
 int main(){
-    printf("hello world")
+    char ch ='A';
+    printf("%d\n",sizeof('A'));
+
+    printf("%d",sizeof(ch));
+    
 }
